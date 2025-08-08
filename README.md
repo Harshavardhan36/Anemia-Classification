@@ -111,10 +111,3 @@ Sri Harshavardhan Pulluru
 [LinkedIn](https://www.linkedin.com/in/harshavardhan3636/) | [GitHub](https://github.com/Harshavardhan36)
 
 ---
-
-### 📌 How to Use This
-1. Go to your GitHub repo.  
-2. Click **README.md**.  
-3. Click the **pencil icon** to edit.  
-4. **Delete everything** and paste this whole file.  
-5. Scroll down → **Commit changes**.  

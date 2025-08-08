@@ -23,3 +23,13 @@ It uses machine learning models trained on sample CBC data to predict whether a 
 ---
 
 ## 📂 Project Structure
+anemia-classification-cbc/
+├── app.py # Flask application
+├── train_model.py # Model training script
+├── utils.py # Preprocessing functions
+├── anemia_model.pkl # Pre-trained ML model
+├── requirements.txt # Python dependencies
+├── templates/
+│ └── index.html # Web interface
+└── static/
+└── style.css # UI styles

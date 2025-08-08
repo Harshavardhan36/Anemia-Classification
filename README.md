@@ -42,3 +42,79 @@ anemia-classification-cbc/
 ```bash
 git clone https://github.com/Harshavardhan36/Anemia-Classification.git
 cd Anemia-Classification
+```
+
+2️⃣ Create a virtual environment (optional but recommended)  
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+4️⃣ Run the app
+```bash
+python app.py
+```
+
+---
+
+5️⃣ Open the app in your browser
+```
+http://127.0.0.1:5000/
+```
+
+---
+
+📊 **How to Use**
+- Enter patient CBC parameters:  
+  - Hemoglobin (g/dL)  
+  - Hematocrit (%)  
+  - MCV (fL)  
+  - MCH (pg)  
+  - RDW (%)  
+- Click **Classify**  
+- The app will display the predicted anemia type.
+
+---
+
+🧪 **Training the Model (Optional)**
+If you want to retrain the model:
+```bash
+python train_model.py
+```
+This will regenerate `anemia_model.pkl`.
+
+---
+
+📜 **License**  
+MIT License — feel free to use and modify.
+
+---
+
+👨‍💻 **Author**  
+Sri Harshavardhan Pulluru  
+[LinkedIn](https://www.linkedin.com/in/harshavardhan3636/) | [GitHub](https://github.com/Harshavardhan36)
+
+---
+
+### 📌 How to Use This
+1. Go to your GitHub repo.  
+2. Click **README.md**.  
+3. Click the **pencil icon** to edit.  
+4. **Delete everything** and paste this whole file.  
+5. Scroll down → **Commit changes**.  

@@ -1,7 +1,7 @@
 # 🩸 Anemia Classification Using CBC Data
 
 This is a Flask-based web application that classifies anemia types using Complete Blood Count (CBC) data.  
-It uses machine learning models trained on sample CBC data to predict whether a patient has **No Anemia**, **Iron Deficiency Anemia**, or **Vitamin Deficiency Anemia**.
+It uses a pre-trained machine learning model to predict whether a patient has **No Anemia**, **Iron Deficiency Anemia**, or **Vitamin Deficiency Anemia**.
 
 ---
 
@@ -24,17 +24,21 @@ It uses machine learning models trained on sample CBC data to predict whether a 
 
 ## 📂 Project Structure
 anemia-classification-cbc/
-├── app.py               # Flask application
-├── train_model.py       # Model training script
-├── utils.py             # Preprocessing functions
-├── anemia_model.pkl     # Pre-trained ML model
-├── requirements.txt     # Python dependencies
+├── app.py # Flask application
+├── train_model.py # Model training script
+├── utils.py # Preprocessing functions
+├── anemia_model.pkl # Pre-trained ML model
+├── requirements.txt # Python dependencies
 ├── templates/
-│   └── index.html       # Web interface
+│ └── index.html # Web interface
 └── static/
-    └── style.css        # UI styles
+└── style.css # UI styles
 
-### **Step 4 — Commit Changes**
-1. Scroll to the bottom of the page.  
-2. Add a commit message like:  
+---
 
+## 📥 Installation & Running the App
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Harshavardhan36/Anemia-Classification.git
+cd Anemia-Classification

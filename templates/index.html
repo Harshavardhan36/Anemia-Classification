@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anemia Classifier</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Anemia Classification</h2>
+        <form action="/predict" method="post">
+            <input type="number" name="hemoglobin" placeholder="Hemoglobin (g/dL)" step="any" required><br>
+            <input type="number" name="hematocrit" placeholder="Hematocrit (%)" step="any" required><br>
+            <input type="number" name="mcv" placeholder="MCV (fL)" step="any" required><br>
+            <input type="number" name="mch" placeholder="MCH (pg)" step="any" required><br>
+            <input type="number" name="rdw" placeholder="RDW (%)" step="any" required><br>
+            <button type="submit">Classify</button>
+        </form>
+        <p>{{ prediction_text }}</p>
+    </div>
+</body>
+</html>
+

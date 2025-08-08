@@ -34,14 +34,7 @@ anemia-classification-cbc/
 └── static/
     └── style.css        # UI styles
 
----
-
-### Why this works:
-- The triple backticks (```) before and after keep everything in a **monospaced block**.
-- The tree uses Unicode characters (`├──`, `└──`, `│`) so it looks clean.
-- Each file has its **comment aligned** for easy reading.
-
----
-
-Do you want me to **update the full README** with this fixed structure so you can just copy and paste it in GitHub? That way it will look perfect when recruiters see it.
+### **Step 4 — Commit Changes**
+1. Scroll to the bottom of the page.  
+2. Add a commit message like:  
 

@@ -35,6 +35,14 @@ anemia-classification-cbc/
 └── style.css # UI styles
 
 ---
+## 📸 Screenshots
+
+### Home Page
+![Homepage](screenshots/SS1.png)
+
+### Prediction Result
+![Result](screenshots/SS2.png)
+
 
 ## 📥 Installation & Running the App
 

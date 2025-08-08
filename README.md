@@ -24,12 +24,24 @@ It uses machine learning models trained on sample CBC data to predict whether a 
 
 ## 📂 Project Structure
 anemia-classification-cbc/
-├── app.py # Flask application
-├── train_model.py # Model training script
-├── utils.py # Preprocessing functions
-├── anemia_model.pkl # Pre-trained ML model
-├── requirements.txt # Python dependencies
+├── app.py               # Flask application
+├── train_model.py       # Model training script
+├── utils.py             # Preprocessing functions
+├── anemia_model.pkl     # Pre-trained ML model
+├── requirements.txt     # Python dependencies
 ├── templates/
-│ └── index.html # Web interface
+│   └── index.html       # Web interface
 └── static/
-└── style.css # UI styles
+    └── style.css        # UI styles
+
+---
+
+### Why this works:
+- The triple backticks (```) before and after keep everything in a **monospaced block**.
+- The tree uses Unicode characters (`├──`, `└──`, `│`) so it looks clean.
+- Each file has its **comment aligned** for easy reading.
+
+---
+
+Do you want me to **update the full README** with this fixed structure so you can just copy and paste it in GitHub? That way it will look perfect when recruiters see it.
+
